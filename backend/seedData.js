@@ -454,7 +454,7 @@ mongoose.connect(process.env.MONGODB_URI)
     await FoodItem.insertMany(allFoodItems);
     console.log(`Added ${allFoodItems.length} food items`);
     
-    // Display summary
+   
     console.log('\nSummary:');
     console.log('='.repeat(40));
     insertedRestaurants.forEach(restaurant => {
